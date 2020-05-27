@@ -45,7 +45,7 @@ public class Monitor {
             ic = new CreateFSCommand();
         }
         fs = new FileSystem(0, "",
-                "", 0, 0, 0);
+                "", 0, 0, 100);
         ic.Execute(fs, ipr, System.out::println);
     }
 
